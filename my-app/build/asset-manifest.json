@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2163b068.css",
+    "main.js": "/static/js/main.67101438.js",
+    "static/media/pexels-christina-morillo-1181244.jpg": "/static/media/pexels-christina-morillo-1181244.8eba742a6e2debfd2337.jpg",
+    "static/media/pexels-lukas-574070.jpg": "/static/media/pexels-lukas-574070.8c34f991e5e570ff3a10.jpg",
+    "static/media/pexels-torsten-dettlaff-54284.jpg": "/static/media/pexels-torsten-dettlaff-54284.356958a4992e0d9964f6.jpg",
+    "static/media/pexels-cottonbro-studio-5082579.jpg": "/static/media/pexels-cottonbro-studio-5082579.250f72b20f09fe14e0fc.jpg",
+    "static/media/pexels-mohi-syed-50614.jpg": "/static/media/pexels-mohi-syed-50614.7e3f850722ff7ad2cdf3.jpg",
+    "static/media/React1.png": "/static/media/React1.9741230b4b4fe8213efa.png",
+    "index.html": "/index.html",
+    "main.2163b068.css.map": "/static/css/main.2163b068.css.map",
+    "main.67101438.js.map": "/static/js/main.67101438.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2163b068.css",
+    "static/js/main.67101438.js"
+  ]
+}

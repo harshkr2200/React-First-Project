@@ -1,0 +1,86 @@
+.main_card_box {
+   width: 24%;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   transition: all 0.3s ease-in;
+   margin-top: 2rem;
+   background: linear-gradient(gray, black);
+
+   &:hover {
+      transform: translateY(-5px);
+   }
+
+   .card_img {
+      width: 100%;
+      object-fit: cover;
+
+      img {
+         width: 100%;
+      }
+   }
+
+   .card_text {
+      p {
+         font-size: 1.6rem;
+         margin-bottom: 1rem;
+         color: #f0f0f0;
+         padding: 0.5rem;
+      }
+   }
+
+   .card_title {
+      font-size: 2rem;
+      color: purple;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+
+   }
+
+   .card_btn {
+      margin-bottom: 1.5rem;
+      padding: 0.5rem;
+
+      a {
+         color: aquamarine;
+         background: linear-gradient(#7052ce, #f0f0f0);
+         padding: 0.5rem 1.5rem;
+         color: #f0f0f0;
+         font-size: 1.6rem;
+         font-weight: 200;
+         text-decoration: none;
+         transition: all 0.2s ease-in-out;
+
+         &:hover {
+            background: transparent;
+            color: #7052ce;
+         }
+      }
+   }
+}
+
+// %%%%%%%%%%%%%% service css %%%%%%%%%%%%%%%%%
+
+.service_main_box {
+   width: 80%;
+   margin: 0px auto;
+
+
+   .service_inside_box {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+
+   .service_title {
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin: 3rem 0;
+      text-decoration: underline;
+   }
+}

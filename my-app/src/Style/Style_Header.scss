@@ -1,0 +1,45 @@
+nav {
+
+   background: linear-gradient(#222222, #635f6d);
+}
+
+.box {
+   max-width: 80%;
+   min-width: 10vh;
+   margin: 0px auto;
+   padding: 1rem 0;
+}
+
+.nav_box {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   .nav_logo {
+      font-size: 3rem;
+      color: #7f4ddc;
+   }
+
+   .list_item {
+      display: flex;
+      align-items: center;
+
+      li {
+         list-style: none;
+
+         a {
+            color: #7f4ddc;
+            text-decoration: none;
+            font-size: 1.7rem;
+            padding-left: 1.3rem;
+            font-weight: 600;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+               color: aqua;
+               text-decoration: underline;
+            }
+         }
+      }
+   }
+}
